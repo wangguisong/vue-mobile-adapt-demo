@@ -1,0 +1,9 @@
+$baseFontPx: 16px;
+    // npm install -g node-gyp
+    //  npm install --global --production windows-build-tools
+//     cnpm install node-sass --save-dev  //安装node-sass
+// cnpm install sass-loader --save-dev  //安装sass-loader
+// cnpm install style-loader --save-dev  //安装style-loader 有些人安装的是 vue-style-loader 其实是一样的！
+@function px2rem($px){
+    @return $px/$baseFontPx*1rem;
+}
